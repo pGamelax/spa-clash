@@ -4,11 +4,7 @@ import Profile from './Pages/Profile'
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/player" element={<Profile />} />
-      </Routes>
-    </Router>
+     <Profile />
   );
 }
 
