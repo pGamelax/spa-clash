@@ -1,7 +1,7 @@
 import axios from "axios";
 import React from "react";
 
-const baseURL = "http://localhost:3333/player/";
+const baseURL = "https://api-clash.onrender.com/player/";
 
 class SearchForm extends React.Component {
   constructor(props) {
